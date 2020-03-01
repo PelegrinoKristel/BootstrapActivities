@@ -1,0 +1,38 @@
+
+#wrapper{
+    background-color: #1D1D1D;
+}
+.nav-link{
+    color: #38DE03;
+}
+.jumbotron{
+    background-color: #1D1D1D;
+    color: gray;
+    padding-top: 30px;
+    border-bottom: solid;
+    border-color: #353535;
+}
+.nctimg{
+    white-space: nowrap;
+    max-width: 383px;
+    height: auto;
+    display: inline;
+    margin: 5px;
+    padding: 0px;
+}
+.nctimg2{
+    white-space: nowrap;
+    max-width: 380px;
+    height: auto;
+    display: inline;
+    margin: 5px;
+    padding: 0px;
+}
+.nctimg3{
+    white-space: nowrap;
+    max-width: 450px;
+    height: auto;
+    display: inline;
+    margin: 5px;
+    padding: 0px;
+}
