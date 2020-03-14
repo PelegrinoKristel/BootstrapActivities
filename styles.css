@@ -1,14 +1,37 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color: #1b1b1b;
+}
 
-#wrapper{
-    background-color: #1D1D1D;
+/* APPLIES TO ALL */
+#wrapper a:hover{
+    color: greenyellow;
 }
-.nav-link{
-    color: #38DE03;
+.navbar-brand{
+    display: block;
+    margin-left: 1%;
+    margin-right: 1%;
 }
+.nav a{
+    padding: 0 15px 0 15px;
+    text-decoration: none;
+    color: white;
+}
+.nav-item a.active{
+    color: greenyellow;
+}
+
+
+/* HOME */
+
 .jumbotron{
-    background-color: #1D1D1D;
+    background-color: #1b1b1b;
     color: #E6E6E6;
-    padding-top: 30px;
+    padding: 30px;
+}
+.jumbotron h1{
+    font-weight: 350;
 }
 .nctimg{
     white-space: nowrap;
@@ -36,4 +59,36 @@
 }
 .card-body{
     background-color: #1D1D1D;
+}
+.card{
+    background-color: #1D1D1D;
+}
+#awards button{
+    text-decoration: none;
+    color: greenyellow;
+}
+.list-group li{
+    background-color: #1D1D1D;
+}
+.padding{
+    background-color: rgb(145, 13, 13);
+    padding: 30px;
+}
+.padding2{
+    background-color: rgb(145, 13, 13);
+    padding: 30px;
+}
+section{
+    padding: 50px;
+}
+
+
+
+/* GALLERY */
+.btn{
+    display: inline-block;
+}
+.padding3{
+    color: white;
+    padding: 30px 0px 0px 50px;
 }
